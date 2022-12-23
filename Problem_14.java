@@ -11,13 +11,15 @@ import java.util.Scanner;
          String g;
          int re = 0;
          int r = 0;
-         while(n!=0){
+         if(n>0){
+            while(n!=0){
             r = n%10;
             n = n/10;
             if(r==0){
                 System.out.println("The number is a duck number");
                 break;
             }
+         }
          }
        }
     }

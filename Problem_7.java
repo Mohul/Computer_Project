@@ -39,7 +39,7 @@ class Problem_7 {
             double r = x.nextDouble();
             //Calculating the area
             double a2 = 3.142 * Math.pow(r,2);
-            System.out.println("The perimeter of the circle is: " + a2);
+            System.out.println("The area of the circle is: " + a2);
             break; 
         default:
             System.out.println("Wrong number");

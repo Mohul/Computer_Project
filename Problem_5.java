@@ -6,8 +6,8 @@ public class Problem_5 {
         Scanner x = new Scanner(System.in);
         //Accepting two numbers
         System.out.println("Enter two numbers");
-        double a = x.nextInt();
-        double b = x.nextInt();
+        double a = x.nextDouble();
+        double b = x.nextDouble();
         //Designing the menu
         System.out.println("----------Menu----------");
         System.out.println("Press 1 for Addition");

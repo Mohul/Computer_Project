@@ -1,6 +1,6 @@
 //Importing the Scanner Class
 import java.util.Scanner;
-public class Problem_5 {
+class Problem_5 {
     static void main(){
         //Creating object for the Scanner class
         Scanner x = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class Problem_5 {
                 System.out.println("The product is: " + (a*b));  
                 break;
             case 4:
-                System.out.println("The quotiebt is: " + (a/b));
+                System.out.println("The quotient is: " + (a/b));
                 break;
             default:
                 System.out.println("Invalid number");

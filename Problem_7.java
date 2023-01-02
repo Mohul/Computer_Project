@@ -1,6 +1,6 @@
 //Importing the Scanner Class
 import java.util.Scanner;
-public class Problem_7 {
+class Problem_7 {
     static void main(){
       //Creating object for the Scanner class
        Scanner x = new Scanner(System.in);

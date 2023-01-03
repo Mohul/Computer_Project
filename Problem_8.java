@@ -9,7 +9,7 @@ class Problem_8{
         System.out.println("Enter the temperature in Celcius");
         double c = x.nextDouble();
         //Converting into ferhenheit
-        double f = (c * 1.8) + 32 ;
+        double f = (c * 1.8) + 32.0 ;
         System.out.println("Temperature in ferhenheit: " + f);
     }
 }

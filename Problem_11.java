@@ -6,13 +6,13 @@ public class Problem_11 {
         Scanner x = new Scanner(System.in);
         //Decalring the variable where sum is stored
         //Even
-        double se = 0.0;
+        int se = 0;
         //Odd
-        double so = 0.0;
+        int so = 0;
         System.out.println("Enter 10 numbers");
         for (int i = 0; i < 11; i++) {
             //Accepting the numbers to be added
-            double n = x.nextDouble();
+            int n = x.nextInt();
             if(n%2 == 0){
                 se = se + n;
             }

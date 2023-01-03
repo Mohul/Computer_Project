@@ -18,8 +18,8 @@ class Problem_13{
         }
         //Finding the LCM 
         int lcm = (a*b)/hcf;
-        System.out.println("Press 1. to get L.C.M.");
-        System.out.println("Press 2. to get H.C.F.");
+        System.out.println("Press 1. to get H.C.F.");
+        System.out.println("Press 2. to get L.C.M.");
         System.out.println("Enter your choice: ");
         ch=sc.nextInt(); 
         switch(ch){

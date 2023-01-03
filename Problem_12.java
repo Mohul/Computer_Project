@@ -1,4 +1,4 @@
-public class Problem_12 {
+class Problem_12 {
     static void main(){
         //Variables
        int n1 = 0;

@@ -21,7 +21,7 @@ class Problem_13{
         System.out.println("Press 1. to get H.C.F.");
         System.out.println("Press 2. to get L.C.M.");
         System.out.println("Enter your choice: ");
-        ch=sc.nextInt(); 
+        ch=x.nextInt(); 
         switch(ch){
             case 1:
                System.out.println("The HCF of the number is: " + hcf); 

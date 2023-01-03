@@ -1,7 +1,7 @@
 //Importing the Scanner Class
 import java.util.Scanner;
-public class Problem_11 {
-    public static void main(String[]args){
+class Problem_11 {
+    static void main(){
         //Creating object for the Scanner class
         Scanner x = new Scanner(System.in);
         //Decalring the variable where sum is stored
@@ -21,6 +21,6 @@ public class Problem_11 {
             }
         }
         System.out.println("The sum of even numbers is: " + se);
-        System.out.println("The num of odd numbers is: " + so);
+        System.out.println("The sum of odd numbers is: " + so);
     }
 }

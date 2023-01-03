@@ -1,7 +1,7 @@
 //Importing the Scanner Class
 import java.util.Scanner;
 class Problem_10 {
-    public static void main(String[]args){
+    static void main(){
         //Creating object for the Scanner class
         Scanner x = new Scanner(System.in);
         //Accepting three sides of the triangle as input

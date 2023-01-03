@@ -5,7 +5,7 @@ class Problem_8{
     static void main(){
         //Creating object for the Scanner class
         Scanner x = new Scanner(System.in);
-        //Excepting the temperature as Celcius
+        //Accepting the temperature as Celcius
         System.out.println("Enter the temperature in Celcius");
         double c = x.nextDouble();
         //Converting into ferhenheit

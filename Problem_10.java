@@ -18,7 +18,7 @@ class Problem_10 {
             else if((a==b)||(b==c)||(a==c)){
                 System.out.println("The triangle is isosceles");
             }
-            else{
+            else if (a!=b && b!=c && c!=a){
                 System.out.println("The triangle is scalene");
             }
         }
